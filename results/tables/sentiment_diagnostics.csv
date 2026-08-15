@@ -1,0 +1,71 @@
+scope,entity,model,metric,value,numerator,denominator,start_date,end_date,notes
+fusion_rebalance_equity_asset,all,evidence_aware_finance,active_tilt_frequency,0.50111111111111106,7216,14400,2021-01-04,2023-12-01,Active means abs(multiplier-1) > 1e-15.
+fusion_rebalance_equity_asset,all,evidence_aware_finance,active_tilt_max_absolute_multiplier_change,0.24989643701520858,NA,NA,2021-01-04,2023-12-01,Maximum absolute multiplier change.
+fusion_rebalance_equity_asset,all,evidence_aware_finance,active_tilt_mean_absolute_multiplier_change,0.037613080575667319,NA,NA,2021-01-04,2023-12-01,Conditional on an active tilt.
+fusion_rebalance_equity_asset,all,evidence_aware_finance,multiplier_one_due_missing_signal_rate,0.25333333333333335,3648,14400,2021-01-04,2023-12-01,Missing lagged signal uses multiplier one without carry-forward.
+fusion_rebalance_equity_asset,all,finance_vader_naive,active_tilt_frequency,0.7466666666666667,10752,14400,2021-01-04,2023-12-01,Active means abs(multiplier-1) > 1e-15.
+fusion_rebalance_equity_asset,all,finance_vader_naive,active_tilt_max_absolute_multiplier_change,0.34985880757600318,NA,NA,2021-01-04,2023-12-01,Maximum absolute multiplier change.
+fusion_rebalance_equity_asset,all,finance_vader_naive,active_tilt_mean_absolute_multiplier_change,0.073761618541124174,NA,NA,2021-01-04,2023-12-01,Conditional on an active tilt.
+fusion_rebalance_equity_asset,all,finance_vader_naive,multiplier_one_due_missing_signal_rate,0.25333333333333335,3648,14400,2021-01-04,2023-12-01,Missing lagged signal uses multiplier one without carry-forward.
+fusion_rebalance_equity_asset,all,plain_vader_naive,active_tilt_frequency,0.7466666666666667,10752,14400,2021-01-04,2023-12-01,Active means abs(multiplier-1) > 1e-15.
+fusion_rebalance_equity_asset,all,plain_vader_naive,active_tilt_max_absolute_multiplier_change,0.34985880757600318,NA,NA,2021-01-04,2023-12-01,Maximum absolute multiplier change.
+fusion_rebalance_equity_asset,all,plain_vader_naive,active_tilt_mean_absolute_multiplier_change,0.074466655433424372,NA,NA,2021-01-04,2023-12-01,Conditional on an active tilt.
+fusion_rebalance_equity_asset,all,plain_vader_naive,multiplier_one_due_missing_signal_rate,0.25333333333333335,3648,14400,2021-01-04,2023-12-01,Missing lagged signal uses multiplier one without carry-forward.
+headline,all,finance_vader,custom_finance_term_hit_share,0.1280528502349656,18802,146830,2020-01-02,2023-12-29,"All 23 approved terms count, including zero-valued overrides."
+headline,all,finance_vader,exact_zero_rate,0.50673568071919906,74404,146830,2020-01-02,2023-12-29,Exact zero differs from the neutral band.
+headline,all,finance_vader,neutral_band_rate,0.51330790710345298,75369,146830,2020-01-02,2023-12-29,Neutral band is abs(compound) < 0.05.
+headline,all,finance_vader,nonzero_active_lexicon_coverage,0.48881699925083427,71773,146830,2020-01-02,2023-12-29,Zero-valued approved overrides do not count as non-zero coverage.
+headline,all,mapping,mapped_headline_count,146830,146830,146836,2020-01-02,2023-12-29,Only mapped records enter trading-day sentiment.
+headline,all,mapping,unmapped_end_of_sample_count,6,6,146836,2020-01-02,2023-12-29,Six accepted endpoint records remain excluded from trading uses.
+headline,all,plain_to_finance,changed_score_share,0.12775999455152218,18759,146830,2020-01-02,2023-12-29,A changed score is an absolute difference greater than 1e-15.
+headline,all,plain_vader,exact_zero_rate,0.48845603759449702,71720,146830,2020-01-02,2023-12-29,Exact zero differs from the neutral band.
+headline,all,plain_vader,neutral_band_rate,0.49571613430497857,72786,146830,2020-01-02,2023-12-29,Neutral band is abs(compound) < 0.05.
+sector,Comm,finance_vader,custom_finance_term_hit_share,0.096494950352202319,1137,11783,2020-01-02,2023-12-29,Stored here rather than widening sector_sentiment_index.csv.
+sector,Consumer,finance_vader,custom_finance_term_hit_share,0.076206670015844191,1972,25877,2020-01-02,2023-12-29,Stored here rather than widening sector_sentiment_index.csv.
+sector,Energy,finance_vader,custom_finance_term_hit_share,0.21972631035373097,4255,19365,2020-01-02,2023-12-29,Stored here rather than widening sector_sentiment_index.csv.
+sector,Financials,finance_vader,custom_finance_term_hit_share,0.11555093327494663,2111,18269,2020-01-02,2023-12-29,Stored here rather than widening sector_sentiment_index.csv.
+sector,Healthcare,finance_vader,custom_finance_term_hit_share,0.098795672586242084,1452,14697,2020-01-02,2023-12-29,Stored here rather than widening sector_sentiment_index.csv.
+sector,Industrials,finance_vader,custom_finance_term_hit_share,0.10915171784737002,1436,13156,2020-01-02,2023-12-29,Stored here rather than widening sector_sentiment_index.csv.
+sector,Materials,finance_vader,custom_finance_term_hit_share,0.13313554607824959,718,5393,2020-01-02,2023-12-29,Stored here rather than widening sector_sentiment_index.csv.
+sector,RealEstate,finance_vader,custom_finance_term_hit_share,0.12474246113504402,666,5339,2020-01-02,2023-12-29,Stored here rather than widening sector_sentiment_index.csv.
+sector,Tech,finance_vader,custom_finance_term_hit_share,0.094698107539801749,2522,26632,2020-01-02,2023-12-29,Stored here rather than widening sector_sentiment_index.csv.
+sector,Utilities,finance_vader,custom_finance_term_hit_share,0.40085456559582211,2533,6319,2020-01-02,2023-12-29,Stored here rather than widening sector_sentiment_index.csv.
+sector_day,all,coverage,news_day_share,0.97733598409542743,9832,10060,2020-01-02,2023-12-29,Sector dates with at least one news-bearing ticker.
+ticker_day,all,coverage,news_day_share,0.7547117296222664,37962,50300,2020-01-02,2023-12-29,News-bearing ticker-days only.
+ticker_day,all,coverage,no_news_day_share,0.2452882703777336,12338,50300,2020-01-02,2023-12-29,No-news remains missing information.
+ticker_day,all,evidence_aware_finance,directional_agreement_count,37962,37962,NA,2020-01-02,2023-12-29,Agreement excludes finance-neutral headlines.
+ticker_day,all,evidence_aware_finance,directional_agreement_max,1,NA,NA,2020-01-02,2023-12-29,Agreement excludes finance-neutral headlines.
+ticker_day,all,evidence_aware_finance,directional_agreement_mean,0.58131481599031642,NA,NA,2020-01-02,2023-12-29,Agreement excludes finance-neutral headlines.
+ticker_day,all,evidence_aware_finance,directional_agreement_median,1,NA,NA,2020-01-02,2023-12-29,Agreement excludes finance-neutral headlines.
+ticker_day,all,evidence_aware_finance,directional_agreement_min,0,NA,NA,2020-01-02,2023-12-29,Agreement excludes finance-neutral headlines.
+ticker_day,all,evidence_aware_finance,directional_agreement_q25,0,NA,NA,2020-01-02,2023-12-29,Agreement excludes finance-neutral headlines.
+ticker_day,all,evidence_aware_finance,directional_agreement_q75,1,NA,NA,2020-01-02,2023-12-29,Agreement excludes finance-neutral headlines.
+ticker_day,all,evidence_aware_finance,directional_agreement_q90,1,NA,NA,2020-01-02,2023-12-29,Agreement excludes finance-neutral headlines.
+ticker_day,all,evidence_aware_finance,directional_agreement_q95,1,NA,NA,2020-01-02,2023-12-29,Agreement excludes finance-neutral headlines.
+ticker_day,all,evidence_aware_finance,directional_agreement_std,0.45977491972414025,NA,NA,2020-01-02,2023-12-29,Agreement excludes finance-neutral headlines.
+ticker_day,all,evidence_aware_finance,lagged_signal_availability,0.69161033797216698,34788,50300,2020-01-02,2023-12-29,Only the immediately previous observed trading date is eligible.
+ticker_day,all,evidence_aware_finance,reliability_count,37962,37962,NA,2020-01-02,2023-12-29,"Reliability is descriptive evidence strength, not truth."
+ticker_day,all,evidence_aware_finance,reliability_max,0.9375,NA,NA,2020-01-02,2023-12-29,"Reliability is descriptive evidence strength, not truth."
+ticker_day,all,evidence_aware_finance,reliability_mean,0.24337255858419843,NA,NA,2020-01-02,2023-12-29,"Reliability is descriptive evidence strength, not truth."
+ticker_day,all,evidence_aware_finance,reliability_median,0.25,NA,NA,2020-01-02,2023-12-29,"Reliability is descriptive evidence strength, not truth."
+ticker_day,all,evidence_aware_finance,reliability_min,0,NA,NA,2020-01-02,2023-12-29,"Reliability is descriptive evidence strength, not truth."
+ticker_day,all,evidence_aware_finance,reliability_q25,0,NA,NA,2020-01-02,2023-12-29,"Reliability is descriptive evidence strength, not truth."
+ticker_day,all,evidence_aware_finance,reliability_q75,0.42857142857142855,NA,NA,2020-01-02,2023-12-29,"Reliability is descriptive evidence strength, not truth."
+ticker_day,all,evidence_aware_finance,reliability_q90,0.5,NA,NA,2020-01-02,2023-12-29,"Reliability is descriptive evidence strength, not truth."
+ticker_day,all,evidence_aware_finance,reliability_q95,0.60000000000000009,NA,NA,2020-01-02,2023-12-29,"Reliability is descriptive evidence strength, not truth."
+ticker_day,all,evidence_aware_finance,reliability_std,0.21686232196048702,NA,NA,2020-01-02,2023-12-29,"Reliability is descriptive evidence strength, not truth."
+ticker_day,all,evidence_aware_finance,usable_signal_rate,0.69163021868787278,34789,50300,2020-01-02,2023-12-29,Past-only history and current news are both required.
+ticker_day,all,evidence_aware_finance,volume_evidence_count,37962,37962,NA,2020-01-02,2023-12-29,Headline volume is not information quality.
+ticker_day,all,evidence_aware_finance,volume_evidence_max,0.98958333333333337,NA,NA,2020-01-02,2023-12-29,Headline volume is not information quality.
+ticker_day,all,evidence_aware_finance,volume_evidence_mean,0.70340027793461157,NA,NA,2020-01-02,2023-12-29,Headline volume is not information quality.
+ticker_day,all,evidence_aware_finance,volume_evidence_median,0.75,NA,NA,2020-01-02,2023-12-29,Headline volume is not information quality.
+ticker_day,all,evidence_aware_finance,volume_evidence_min,0.5,NA,NA,2020-01-02,2023-12-29,Headline volume is not information quality.
+ticker_day,all,evidence_aware_finance,volume_evidence_q25,0.5,NA,NA,2020-01-02,2023-12-29,Headline volume is not information quality.
+ticker_day,all,evidence_aware_finance,volume_evidence_q75,0.83333333333333337,NA,NA,2020-01-02,2023-12-29,Headline volume is not information quality.
+ticker_day,all,evidence_aware_finance,volume_evidence_q90,0.88888888888888884,NA,NA,2020-01-02,2023-12-29,Headline volume is not information quality.
+ticker_day,all,evidence_aware_finance,volume_evidence_q95,0.91666666666666663,NA,NA,2020-01-02,2023-12-29,Headline volume is not information quality.
+ticker_day,all,evidence_aware_finance,volume_evidence_std,0.147066420298199,NA,NA,2020-01-02,2023-12-29,Headline volume is not information quality.
+ticker_day,all,finance_vader,lagged_signal_availability,0.69161033797216698,34788,50300,2020-01-02,2023-12-29,Only the immediately previous observed trading date is eligible.
+ticker_day,all,finance_vader,usable_signal_rate,0.69163021868787278,34789,50300,2020-01-02,2023-12-29,Past-only history and current news are both required.
+ticker_day,all,plain_vader,lagged_signal_availability,0.69161033797216698,34788,50300,2020-01-02,2023-12-29,Only the immediately previous observed trading date is eligible.
+ticker_day,all,plain_vader,usable_signal_rate,0.69163021868787278,34789,50300,2020-01-02,2023-12-29,Past-only history and current news are both required.

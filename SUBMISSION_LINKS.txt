@@ -1,0 +1,7 @@
+FINS5545 Project B Submission Links
+
+Public GitHub Repository:
+https://github.com/yaohui-unsw/z5618000_projectB
+
+Live Streamlit App:
+https://z5618000projectb-bmlgafeat88mwytm2cokzu.streamlit.app/

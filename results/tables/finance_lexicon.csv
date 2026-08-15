@@ -1,0 +1,24 @@
+term,candidate_class,vanilla_vader_value,approved_finance_value,direction,student_decision,decision_date,rationale
+active,reviewed_override,1.7,0,neutral,ACCEPT,2026-08-14,Most active describes trading activity or volume rather than favourable performance.
+alert,reviewed_override,1.2,0,neutral,ACCEPT,2026-08-14,"In this corpus it is mainly a publication, ETF-flow, option, or trading-alert label."
+asset,reviewed_override,1.5,0,neutral,ACCEPT,2026-08-14,It is generally a neutral finance noun or organisation-name component.
+beat,addition,NA,1.5,positive,ACCEPT,2026-08-14,"An earnings, revenue, or estimate beat is materially favourable; other words can represent offsetting clauses."
+beats,addition,NA,1.5,positive,ACCEPT,2026-08-14,It normally reports performance above expectations; mixed clauses remain visible through other headline terms.
+bullish,addition,NA,1.5,positive,ACCEPT,2026-08-14,"It directly expresses a positive market or analyst view, while existing VADER rules and other words retain some contextual qualification."
+downgraded,addition,NA,-1.5,negative,ACCEPT,2026-08-14,It directly reports an adverse analyst-rating reduction.
+downgrades,addition,NA,-1,negative,EDIT,2026-08-14,"Rating downgrades are negative, but this plural form often appears in mixed analyst-action digests."
+energy,reviewed_override,1.1000000000000001,0,neutral,ACCEPT,2026-08-14,"It normally identifies a sector, commodity theme, or name component rather than positive affect."
+layoffs,addition,NA,-1,negative,EDIT,2026-08-14,"Workforce reductions are generally adverse, but cost-reduction and restructuring interpretations justify a weaker value."
+miss,reviewed_override,-0.59999999999999998,-1,negative,EDIT,2026-08-14,It frequently denotes an earnings or revenue shortfall but also occurs in ordinary constructions such as miss out.
+misses,reviewed_override,-0.90000000000000002,-1.5,negative,ACCEPT,2026-08-14,"In this finance corpus it usually reports failure to meet earnings, sales, or operating expectations."
+outperform,addition,NA,1,positive,EDIT,2026-08-14,"It is a favourable rating, but maintained ratings and simultaneous target cuts justify a more conservative magnitude."
+overweight,reviewed_override,-1.5,1,positive,ACCEPT,2026-08-14,In financial ratings it is positive and corrects the inappropriate negative vanilla-VADER sign.
+plunge,addition,NA,-1.5,negative,ACCEPT,2026-08-14,"It denotes a sharp adverse decline, with the magnitude kept below extreme VADER values."
+plunges,addition,NA,-1.5,negative,ACCEPT,2026-08-14,It is the inflected form of a sharp adverse decline.
+rally,addition,NA,1,positive,ACCEPT,2026-08-14,"It normally denotes a positive market-price movement, with a conservative magnitude retained for attribution and question risk."
+rebound,addition,NA,0.5,positive,EDIT,2026-08-14,"It is directionally positive, but can be prospective, temporary, or refer to another asset, so a weaker value is more defensible."
+shares,reviewed_override,1.2,0,neutral,ACCEPT,2026-08-14,In financial headlines it is normally a neutral noun referring to equity units.
+slump,addition,NA,-1.5,negative,ACCEPT,2026-08-14,"It denotes a material adverse decline in markets, demand, or activity."
+tumble,addition,NA,-1.5,negative,ACCEPT,2026-08-14,It denotes a substantial negative market or operating movement.
+underperform,addition,NA,-1,negative,EDIT,2026-08-14,"It is an unfavourable rating, but a symmetric conservative value with outperform reduces overstatement and maintained-rating risk."
+underweight,addition,NA,-1,negative,ACCEPT,2026-08-14,In finance it is an unfavourable relative-allocation or analyst-rating term.
